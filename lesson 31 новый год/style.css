@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background: url(img/novogodnie-kartinki-sinii-fon.jpg) no-repeat center / cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compliment {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.compliment__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.compliment__title {
+    margin-top: 0px;
+}
+
+.compliment__title-name {}
+
+.myForm {}
+
+input[type="text"] {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+#userName {}
+
+input[type="text"] {
+    font-weight: 400;
+}
+
+.form__row {
+    margin-bottom: 20px;
+}
